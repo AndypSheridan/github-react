@@ -14,12 +14,14 @@ import './App.css';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
-import LifeCyclesCWU from './components/LIfeCyclesCWU';
+// import LifeCyclesCWU from './components/LIfeCyclesCWU';
+import ControlledForms from './components/ControlledForms';
 
 
 function App() {
   return (
     <div className="App">
+
       {/* <FunctionalGreeting /> */}
       {/* FunctionalGreetingWithProps greeting="Nice to meet you!" name="Andy" */}
       {/* <StatefulGreetingWithPrevState /> */}
@@ -33,7 +35,9 @@ function App() {
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      <ControlledForms />
+      
     </div>
   );
 }

@@ -21,9 +21,9 @@ export class LifeCyclesCWUTracker extends Component {
   }
 
   componentWillUnmount() {
-    console.log("unmounting...")
-    window.removeEventListener("mousemove", this.trackMouse)
-}
+        console.log("unmounting...")
+        window.removeEventListener("mousemove", this.trackMouse)
+    }
 
   render() {
     return (
