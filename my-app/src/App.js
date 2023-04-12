@@ -12,7 +12,9 @@ import './App.css';
 // import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import RenderingLists from './components/RenderingLists';
-import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LIfeCyclesCWU';
 
 
 function App() {
@@ -29,7 +31,9 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists /> */}
-      <LifeCyclesCDM />
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }
