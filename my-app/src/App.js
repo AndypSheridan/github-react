@@ -1,5 +1,5 @@
 import './App.css';
-import HTTPRequests from './components/HTTPRequests';
+// import HTTPRequests from './components/HTTPRequests';
 
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
@@ -25,7 +25,8 @@ import HTTPRequests from './components/HTTPRequests';
 // import UseStateWithObjectsHooks from './components/UseStateWithObjectsHooks';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
-import HTTPPost from './components/HTTPPost';
+// import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterContainer /> */}
       {/* <HTTPRequests /> */}
-      <HTTPPost />
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
 
     </div>
   );
